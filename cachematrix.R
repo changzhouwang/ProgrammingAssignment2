@@ -2,7 +2,7 @@
 
 ## Create a special matrix object that can cache its inverse. It allows 
 ## one to set and get the actual matrix in addition to set and get the 
-## inverse of the actual matrix
+## inverse of the actual matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
